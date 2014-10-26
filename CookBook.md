@@ -33,5 +33,9 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-## Steps to the implementation of the run_analyais.R
-
+## Steps to implementation of the run_analyais.R
+- Load the "data.table" and "reshape2" package
+- Load the Activity and feature labels from the activity_lable.txt and features.txt respectivley
+-  Extract  the mean and standard deviation for each measurement.
+- Process the test and train data respectively
+- Merge test and train data into tidy_data
